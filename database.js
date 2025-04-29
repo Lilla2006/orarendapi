@@ -1,6 +1,6 @@
 import sqlite from "sqlite3";
 
-const db = new sqlite.Database("./data/database.sqlite");
+const db = new sqlite.Database("./database.sqlite");
 
 export function dbAll(sql, params = []) {
   return new Promise((resolve, reject) => {
