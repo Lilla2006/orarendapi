@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import { initializeDatabase, dbAll, dbGet, dbRun } from "./util/database.js";
+import { initializeDatabase, dbAll, dbGet, dbRun } from "./database.js";
 
 const app = express();
 
